@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #FFF2F2;
+}
+
+body {
+    padding-top: 4.375em;
+}
+
+.seccion-hero {
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+.seccion-hero h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 1.875em;
+    background-color: #FFF2F2;
+}
+.accion-documentos{
+    border: 1px solid #ccc;
+    padding: 0.9375em;
+    margin: 1.25em auto;
+    width: 80%;
+    text-align: left;
+}
+.rating {
+    color: #ffd700;
+    font-size: 1.2em;
+    margin: 0.9375em 0;
+}
+
+.seccion-servicios {
+    margin-left: 12em;
+    margin-right: 12em;
+}
+.seccion-servicios ul {
+    list-style-type: none;
+    padding-left: 1.25em;
+}
+.seccion-servicios li::before {
+    content: "• ";
+    color: #666;
+}
+
+.seccion-testimonios {
+    margin-left: 12em;
+    margin-right: 12em;
+}
+.carta-testimonial {
+    border-left: 0.1875em solid #666;
+    padding: 0.9375em;
+    margin: 1.25em 0;
+}
+.autor-testimonio {
+    font-weight: bold;
+    margin-top: 0.625em;
+}
+
+.seccion-faq{
+    margin-left: 12em;
+    margin-right: 12em;
+}
+.item-faq {
+    margin-bottom: 1.875em;
+}
+.item-faq h3 {
+    color: #444;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.625em;
+}
+
+---------------------------------------------
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #FFF2F2
+}
+
+nav {
+    background: #2D336B;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 90%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 3.125em;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.botones-autenticacion {
+    display: flex;
+    gap: 1rem;
+}
+
+.boton-primario, .btn-secondary {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.3125em;
+    cursor: pointer;
+}
+
+.boton-primario {
+    background: #3498db;
+    border: none;
+    color: white;
+}
+
+.boton-secundario {
+    background: transparent;
+    border: 0.125em solid #3498db;
+    color: #3498db;
+}
+
+.seccion-hero {
+    text-align: center;
+    padding: 8rem 5% 4rem;
+    background: #f8f9fa;
+}
+
+.barra-busqueda input {
+    width: 50%;
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 1.5625em;
+}
+
+.acciones-documentos {
+    background: white;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 70%;
+    box-shadow: 0 0.125em 0.625em rgba(0,0,0,0.1);
+    border-radius: 0.625em;
+}
+
+.doc-item {
+    text-align: left;
+}
+
+.botones-cta{
+    margin: 2rem 0;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.boton-cta{
+    background: #7886C7;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1.875em;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.services-section, .testimonials-section, .faq-section {
+    max-width: 75em;
+    margin: 4rem auto;
+    padding: 0 5%;
+}
+
+.categoria-servicios{
+    margin: 3rem 0;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 0.625em;
+}
+
+.categoria-servicios h3 {
+    color: #2c3e50;
+    border-bottom: 0.125em solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.carta-testimonial {
+    background: white;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-left: 0.25em solid #3498db;
+    box-shadow: 0 0.125em 0.625em rgba(0,0,0,0.05);
+}
+
+.item-faq {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3125em;
+}
+
+footer {
+    background: #A9B5DF;
+    color: black;
+    padding: 3rem;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0.5rem 0;
+}
+
+.slogan-footer {
+    font-style: italic;
+    margin-top: 1.5rem !important;
+    color: black;
+}
