@@ -1,3 +1,4 @@
+@media (width >= 992px) {
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -152,7 +153,7 @@ nav {
     padding: 2rem;
     margin: 2rem auto;
     width: 70%;
-    box-shadow: 0 0.125em 0.625em rgba(0,0,0,0.1);
+    box-shadow: 0 0.125em 0.625em;
     border-radius: 0.625em;
 }
 
@@ -225,6 +226,301 @@ footer {
 
 .slogan-footer {
     font-style: italic;
-    margin-top: 1.5rem !important;
+    margin-top: 1.5rem;
     color: black;
+}
+}
+
+
+/*FORMATO MÓVILES*/
+
+
+@media (width <= 768px) {
+    
+
+
+
+    .menu{
+        display: none;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        background-color: #FFF2F2;
+    }
+    
+    body {
+        padding-top: 4.375em;
+    }
+    
+    .seccion-hero {
+        text-align: center;
+        margin-bottom: 2.5em;
+        margin-left: 0.3em;
+        margin-right: 0.3em;
+    }
+    .seccion-hero h1 {
+        font-size: 1.5em;
+        color: #333;
+        margin-bottom: 1.875em;
+        background-color: #FFF2F2;
+    }
+    .accion-documentos{
+        border: 1px solid #ccc;
+        padding: 0.9375em;
+        margin: 0.2em auto;
+        width: 80%;
+        text-align: left;
+    }
+    .rating {
+        color: #ffd700;
+        font-size: 1.2em;
+        margin: 0.2em 0;
+    }
+    
+    .seccion-servicios {
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
+    .seccion-servicios ul {
+        list-style-type: none;
+        padding-left: 1.25em;
+    }
+    .seccion-servicios li::before {
+        content: "• ";
+        color: #666;
+    }
+    
+    .seccion-testimonios {
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
+    .carta-testimonial {
+        border-left: 0.1875em solid #666;
+        padding: 0.9375em;
+        margin: 0.2em 0;
+    }
+    .autor-testimonio {
+        font-weight: bold;
+        margin-top: 0.625em;
+    }
+    
+    .seccion-faq{
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
+    .item-faq {
+        margin-bottom: 1.875em;
+    }
+    .item-faq h3 {
+        color: #444;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 0.625em;
+    }
+    
+    ---------------------------------------------
+    
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        background-color: #FFF2F2
+    }
+    
+    nav {
+        background: #2D336B;
+        padding: 1rem 5%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 90%;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    .logo img {
+        height: 3em;
+    }
+    
+    .menu {
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .menu a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    
+    .botones-autenticacion {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .boton-primario, .btn-secondary {
+        border-radius: 0.3125em;
+        cursor: pointer;
+    }
+    
+    .boton-primario{
+        margin-left: 2em;
+        margin-right: 2em;
+        background: #3498db;
+        border: none;
+        color: white;
+    }
+    
+    .boton-secundario {
+        background: transparent;
+        border: 0.125em solid #3498db;
+        color: #3498db;
+    }
+    
+    .seccion-hero {
+        text-align: center;
+        padding: 8rem 5% 4rem;
+        background: #f8f9fa;
+    }
+
+    .seccion-hero img{
+        align-items: center;
+        width: 20em;
+        height: 10em;
+    }
+    
+    .barra-busqueda input {
+        width: 50%;
+        padding: 0.8rem;
+        margin-bottom: 2rem;
+        border: 1px solid #ddd;
+        border-radius: 1.5625em;
+    }
+    
+    .acciones-documentos {
+        background: white;
+        padding: 2rem;
+        margin: 0.2em auto;
+        width: 70%;
+        box-shadow: 0 0.125em 0.625em;
+        border-radius: 0.625em;
+    }
+    
+    .doc-item {
+        text-align: left;
+    }
+    
+    .botones-cta{
+        margin: 0.2em 0;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+    
+    .boton-cta{
+        background: #7886C7;
+        color: white;
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 1.875em;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+    
+    .services-section, .testimonials-section, .faq-section {
+        max-width: 75em;
+        margin: 0.2em auto;
+        padding: 0 5%;
+    }
+    
+    .categoria-servicios{
+        margin: 0.2em 0;
+        padding: 2rem;
+        background: #f8f9fa;
+        border-radius: 0.625em;
+    }
+    
+    .categoria-servicios h3 {
+        color: #2c3e50;
+        border-bottom: 0.125em solid #3498db;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .carta-testimonial {
+        background: white;
+        padding: 2rem;
+        margin: 0.2em 0;
+        border-left: 0.25em solid #3498db;
+        box-shadow: 0 0.125em 0.625em rgba(0,0,0,0.05);
+    }
+    
+    .item-faq {
+        background: #f8f9fa;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        border-radius: 0.3125em;
+    }
+    
+    footer {
+        background: #A9B5DF;
+        color: black;
+        padding: 3rem;
+        text-align: center;
+    }
+    
+    .footer-content p {
+        margin: 0.2em 0;
+    }
+    
+    .slogan-footer {
+        font-style: italic;
+        margin-top: 1.5rem;
+        color: black;
+    }
+
+    .categoria-servicios img{
+        width: 20em;
+        height: 15em;
+    }
+
+    .seccion-faq h2{
+        text-align: center;
+    }
+
+    .seccion-testimonios h2{
+        text-align: center;
+    }
+
+    .seccion-servicios h2{
+        text-align: center;
+    }
+
+    .seccion-faq .item-faq{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .seccion-testimonios .carta-testimonial{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .seccion-servicios .categoria-servicios{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .seccion-hero{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    
 }
